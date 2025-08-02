@@ -6,9 +6,6 @@ from sklearn.model_selection import train_test_split
 from pandas.core.common import random_state
 from sklearn.linear_model import LinearRegression
 
-from google.colab import files
-uploaded = files.upload()
-
 df_sal = pd.read_csv('Morning_Routine_Productivity_Dataset.csv')
 df_sal.head()
 
